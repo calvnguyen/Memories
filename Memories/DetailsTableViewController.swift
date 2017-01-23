@@ -41,6 +41,7 @@ class DetailsTableViewController: UITableViewController{
     }
     
     
+    // pass the memory info to the add view
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let navigationController = segue.destination as! UINavigationController
         if (segue.identifier == "editMemory"){

@@ -63,7 +63,7 @@ class MemCellsViewController: UITableViewController, AddMemTableViewControllerDe
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return memory_items.count
     }
-    // editor placeholder in source file
+ 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }
@@ -128,7 +128,7 @@ class MemCellsViewController: UITableViewController, AddMemTableViewControllerDe
         
     }
 
-    
+    // cancel button from Add item view
     func cancelButtonPressed(by controller: AddMemTableViewController) {
         
         print("cancel button pressed - i'm the delegate of AddMemTableViewController")
@@ -137,7 +137,7 @@ class MemCellsViewController: UITableViewController, AddMemTableViewControllerDe
     }
     
     
-    
+    // cancel button from Details screen
     func cancelButtonDetailsPressed(by controller: DetailsTableViewController) {
         print("cancel button pressed - i'm the delegate of DetailsTableViewController")
         dismiss(animated: true, completion: nil)

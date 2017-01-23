@@ -29,11 +29,13 @@ class ImageCollectionViewController: UICollectionViewController {
         return images.count
     }
     
+    
+       // editor placeholder in source file error was here..
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
         
         
-    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageCell", for: indexPath as IndexPath) as! memoryImageCell
+    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "imageCell", for: indexPath) as! memoryImageCell
         
         cell.imageItem.image = UIImage(named: images[indexPath.row])
         cell.imageItem.contentMode = .scaleAspectFit
@@ -42,6 +44,7 @@ class ImageCollectionViewController: UICollectionViewController {
         
     }
     
+    // pass the image's name back to the delegate. Exit the screen afterwards
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
         print(indexPath.row)
         let image = images[indexPath.row]

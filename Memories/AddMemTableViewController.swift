@@ -66,6 +66,7 @@ class AddMemTableViewController: UITableViewController, ImageCollectionViewContr
             print("no delegate")
         }
         
+        // when there's an object to edit, then edit. Otherwise, we know we need to add an item
         if let this_memory = edit_memory{
             print("editing now")
             if let this_image = add_image{
@@ -83,6 +84,7 @@ class AddMemTableViewController: UITableViewController, ImageCollectionViewContr
         
     }
     
+    // declare this controller as delegate to get the image's name
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let image_controller = segue.destination as! ImageCollectionViewController
         image_controller.delegate = self
