@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7849F5F21E303AD1009DA49E /* ImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7849F5F11E303AD1009DA49E /* ImageCollectionViewController.swift */; };
+		7849F5F41E30497F009DA49E /* memoryImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7849F5F31E30497F009DA49E /* memoryImageCell.swift */; };
+		7849F5F61E307F75009DA49E /* AddMemTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7849F5F51E307F75009DA49E /* AddMemTableViewControllerDelegate.swift */; };
+		7849F5F81E30906E009DA49E /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7849F5F71E30906E009DA49E /* DetailsTableViewController.swift */; };
 		786A73C41E300AF2002C7BC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A73C31E300AF2002C7BC8 /* AppDelegate.swift */; };
-		786A73C61E300AF2002C7BC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A73C51E300AF2002C7BC8 /* ViewController.swift */; };
+		786A73C61E300AF2002C7BC8 /* MemCellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A73C51E300AF2002C7BC8 /* MemCellsViewController.swift */; };
 		786A73C91E300AF3002C7BC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786A73C71E300AF3002C7BC8 /* Main.storyboard */; };
 		786A73CC1E300AF3002C7BC8 /* Memories.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 786A73CA1E300AF3002C7BC8 /* Memories.xcdatamodeld */; };
 		786A73CE1E300AF3002C7BC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 786A73CD1E300AF3002C7BC8 /* Assets.xcassets */; };
 		786A73D11E300AF3002C7BC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786A73CF1E300AF3002C7BC8 /* LaunchScreen.storyboard */; };
 		786A73DC1E300AF3002C7BC8 /* MemoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A73DB1E300AF3002C7BC8 /* MemoriesTests.swift */; };
 		786A73E71E300AF3002C7BC8 /* MemoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A73E61E300AF3002C7BC8 /* MemoriesUITests.swift */; };
+		786A73F51E3016ED002C7BC8 /* MemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A73F41E3016ED002C7BC8 /* MemCell.swift */; };
+		786A73F71E3021E6002C7BC8 /* AddMemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786A73F61E3021E6002C7BC8 /* AddMemTableViewController.swift */; };
+		78F061741E35E9E700D6F5F4 /* DetailsTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F061731E35E9E700D6F5F4 /* DetailsTableViewControllerDelegate.swift */; };
+		78F061761E35EB5100D6F5F4 /* ImageCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F061751E35EB5100D6F5F4 /* ImageCollectionViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7849F5F11E303AD1009DA49E /* ImageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewController.swift; sourceTree = "<group>"; };
+		7849F5F31E30497F009DA49E /* memoryImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memoryImageCell.swift; sourceTree = "<group>"; };
+		7849F5F51E307F75009DA49E /* AddMemTableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMemTableViewControllerDelegate.swift; sourceTree = "<group>"; };
+		7849F5F71E30906E009DA49E /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 		786A73C01E300AF2002C7BC8 /* Memories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		786A73C31E300AF2002C7BC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		786A73C51E300AF2002C7BC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		786A73C51E300AF2002C7BC8 /* MemCellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemCellsViewController.swift; sourceTree = "<group>"; };
 		786A73C81E300AF3002C7BC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		786A73CB1E300AF3002C7BC8 /* Memories.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Memories.xcdatamodel; sourceTree = "<group>"; };
 		786A73CD1E300AF3002C7BC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		786A73E21E300AF3002C7BC8 /* MemoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		786A73E61E300AF3002C7BC8 /* MemoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesUITests.swift; sourceTree = "<group>"; };
 		786A73E81E300AF3002C7BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786A73F41E3016ED002C7BC8 /* MemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemCell.swift; sourceTree = "<group>"; };
+		786A73F61E3021E6002C7BC8 /* AddMemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMemTableViewController.swift; sourceTree = "<group>"; };
+		78F061731E35E9E700D6F5F4 /* DetailsTableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewControllerDelegate.swift; sourceTree = "<group>"; };
+		78F061751E35EB5100D6F5F4 /* ImageCollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +116,15 @@
 			isa = PBXGroup;
 			children = (
 				786A73C31E300AF2002C7BC8 /* AppDelegate.swift */,
-				786A73C51E300AF2002C7BC8 /* ViewController.swift */,
+				786A73C51E300AF2002C7BC8 /* MemCellsViewController.swift */,
+				786A73F41E3016ED002C7BC8 /* MemCell.swift */,
+				7849F5F51E307F75009DA49E /* AddMemTableViewControllerDelegate.swift */,
+				786A73F61E3021E6002C7BC8 /* AddMemTableViewController.swift */,
+				78F061731E35E9E700D6F5F4 /* DetailsTableViewControllerDelegate.swift */,
+				7849F5F71E30906E009DA49E /* DetailsTableViewController.swift */,
+				78F061751E35EB5100D6F5F4 /* ImageCollectionViewDelegate.swift */,
+				7849F5F11E303AD1009DA49E /* ImageCollectionViewController.swift */,
+				7849F5F31E30497F009DA49E /* memoryImageCell.swift */,
 				786A73C71E300AF3002C7BC8 /* Main.storyboard */,
 				786A73CD1E300AF3002C7BC8 /* Assets.xcassets */,
 				786A73CF1E300AF3002C7BC8 /* LaunchScreen.storyboard */,
@@ -265,9 +289,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				786A73C61E300AF2002C7BC8 /* ViewController.swift in Sources */,
+				7849F5F41E30497F009DA49E /* memoryImageCell.swift in Sources */,
+				7849F5F21E303AD1009DA49E /* ImageCollectionViewController.swift in Sources */,
+				78F061761E35EB5100D6F5F4 /* ImageCollectionViewDelegate.swift in Sources */,
+				786A73C61E300AF2002C7BC8 /* MemCellsViewController.swift in Sources */,
 				786A73C41E300AF2002C7BC8 /* AppDelegate.swift in Sources */,
+				7849F5F81E30906E009DA49E /* DetailsTableViewController.swift in Sources */,
+				786A73F71E3021E6002C7BC8 /* AddMemTableViewController.swift in Sources */,
+				7849F5F61E307F75009DA49E /* AddMemTableViewControllerDelegate.swift in Sources */,
 				786A73CC1E300AF3002C7BC8 /* Memories.xcdatamodeld in Sources */,
+				786A73F51E3016ED002C7BC8 /* MemCell.swift in Sources */,
+				78F061741E35E9E700D6F5F4 /* DetailsTableViewControllerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +454,7 @@
 				DEVELOPMENT_TEAM = D3797JW3ME;
 				INFOPLIST_FILE = Memories/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CalvNgCodingDojo.Memories;
+				PRODUCT_BUNDLE_IDENTIFIER = "CalvNgCodingDojo.BucketList-v1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -435,7 +467,7 @@
 				DEVELOPMENT_TEAM = D3797JW3ME;
 				INFOPLIST_FILE = Memories/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CalvNgCodingDojo.Memories;
+				PRODUCT_BUNDLE_IDENTIFIER = "CalvNgCodingDojo.BucketList-v1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -518,6 +550,7 @@
 				786A73ED1E300AF3002C7BC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		786A73EE1E300AF3002C7BC8 /* Build configuration list for PBXNativeTarget "MemoriesTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +559,7 @@
 				786A73F01E300AF3002C7BC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		786A73F11E300AF3002C7BC8 /* Build configuration list for PBXNativeTarget "MemoriesUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +568,7 @@
 				786A73F31E300AF3002C7BC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
